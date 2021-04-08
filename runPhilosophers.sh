@@ -6,7 +6,7 @@ if [ $# -eq 0 ]
     exit
 fi
 
-export MPJ_HOME=/Users/ivanjuren/Library/mpj-v0_44
+export MPJ_HOME=$2
 javac -version
 java -version
 
